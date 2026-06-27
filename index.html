@@ -1,186 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Demo Menú Digital Magdalena</title>
+    <meta charset="UTF-8">
 
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
-}
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-.header{
-    text-align:center;
-    background:#ffffff;
-    padding:20px;
-}
+    <title>Menú Digital</title>
 
-.logo{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    object-fit:cover;
-}
+    <link rel="stylesheet"
+          href="style.css">
 
-h1{
-    margin-top:10px;
-}
-
-.card{
-    background:white;
-    margin:15px;
-    padding:15px;
-    border-radius:12px;
-    box-shadow:0 2px 6px rgba(0,0,0,.1);
-}
-
-.menu-item{
-    .products{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:15px;
-}
-
-.product-card{
-    background:white;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 2px 6px rgba(0,0,0,.1);
-}
-
-.product-card img{
-    width:100%;
-    height:180px;
-    object-fit:cover;
-    display:block;
-}
-
-.product-info{
-    padding:12px;
-}
-
-.product-title{
-    font-size:18px;
-    font-weight:bold;
-    margin-bottom:5px;
-}
-
-.product-description{
-    color:#666;
-    font-size:14px;
-    margin-bottom:8px;
-}
-
-.product-price{
-    font-size:18px;
-    font-weight:bold;
-    color:#25D366;
-}
-}
-
-.whatsapp{
-    display:block;
-    text-align:center;
-    background:#25D366;
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    border-radius:10px;
-    font-weight:bold;
-    margin-top:15px;
-}
-
-iframe{
-    width:100%;
-    border:none;
-    border-radius:10px;
-}
-</style>
 </head>
 
 <body>
 
-<div class="header">
-    <img class="logo" src="https://via.placeholder.com/120" alt="Logo">
-    <h1>Tacos El Güero</h1>
-</div>
-<div class="card">
+    <div id="app">
 
-<h2>🌮 Menú</h2>
+        <!--
+            Toda la página será creada automáticamente
+            por app.js
+        -->
 
-<div class="products">
-
-<div class="product-card">
-<img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=800" alt="Taco al Pastor">
-
-<div class="product-info">
-<div class="product-title">Taco al Pastor</div>
-<div class="product-description">
-Tortilla recién hecha con carne al pastor.
-</div>
-<div class="product-price">$25</div>
-</div>
-</div>
-
-<div class="product-card">
-<img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800" alt="Taco de Asada">
-
-<div class="product-info">
-<div class="product-title">Taco de Asada</div>
-<div class="product-description">
-Carne asada preparada al momento.
-</div>
-<div class="product-price">$28</div>
-</div>
-</div>
-
-<div class="product-card">
-<img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=800" alt="Quesadilla">
-
-<div class="product-info">
-<div class="product-title">Quesadilla</div>
-<div class="product-description">
-Queso derretido en tortilla artesanal.
-</div>
-<div class="product-price">$45</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-    <div class="menu-item">
-        <span>Quesadilla</span>
-        <span>$45</span>
     </div>
-</div>
 
-<div class="card">
-    <h2>🕒 Horario</h2>
-    <p>Lunes a Domingo</p>
-    <p>7:00 PM - 1:00 AM</p>
-</div>
+    <script src="negocio.js"></script>
 
-<div class="card">
-    <h2>📍 Ubicación</h2>
-
-    <iframe
-        src="https://maps.google.com/maps?q=Magdalena,Jalisco&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        height="250">
-    </iframe>
-</div>
-
-<div class="card">
-    <a class="whatsapp"
-       href="https://wa.me/5233XXXXXXXX?text=Hola,%20quiero%20hacer%20un%20pedido">
-       Pedir por WhatsApp
-    </a>
-</div>
+    <script src="app.js"></script>
 
 </body>
+
 </html>
